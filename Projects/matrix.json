@@ -211,6 +211,15 @@
             },
             {
                 "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.Fireworks.Fireworks",
+                    "name": "Fireworks"
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
                     "typename": "BiblioPixelAnimations.matrix.perlin_simplex.PerlinSimplex",
                     "name": "PerlinSimplex"
                 },
