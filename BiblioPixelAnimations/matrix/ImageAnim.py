@@ -11,7 +11,7 @@ except ImportError:
     log.error(error)
 
 ROOT = pathlib.Path(__file__).parents[2]
-DEFAULT_ANIM = ROOT / 'Graphics' / 'MarioRotating.gif'
+DEFAULT_ANIM = ROOT / 'Graphics' / 'banana.gif'
 
 
 class LoadNextThread(threading.Thread):
