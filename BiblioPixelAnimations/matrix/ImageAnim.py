@@ -12,7 +12,7 @@ except ImportError:
 
 ROOT = pathlib.Path(__file__).parents[2]
 DEFAULT_ANIM = ROOT / 'Graphics' / 'banana.gif'
-
+print(DEFAULT_ANIM)
 
 class LoadNextThread(threading.Thread):
     def __init__(self, imganim):
