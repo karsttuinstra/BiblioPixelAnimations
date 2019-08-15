@@ -23,7 +23,7 @@ class Circle:
             self._color %= 360
 
 
-class Fireworks(Matrix):
+class CirclePop(Matrix):
     LEGACY_COLORS = ('bgcolor', COLORS.Off),
 
     def __init__(self, layout, **kwds):
